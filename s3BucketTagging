@@ -1,0 +1,16 @@
+Policy Name: S3BucketTagging
+"Version": "2012-10-17",
+        "Statement": [
+               {
+                        "Sid": "Statement4",
+                        "Principal": {},
+                        "Effect": "Allow",
+                        "Action": [
+                                "s3:PutBucketTagging",
+                                "s3:GetBucketTagging"
+                        ],
+                        "Resource": [
+                                "arn:aws:s3:::git-collab"
+                        ]
+                }
+

@@ -1,0 +1,17 @@
+Policy Name: S3FullAccess
+{
+        "Version": "2012-10-17",
+        "Statement": [
+                {
+                        "Sid": "Statement1",
+                        "Principal": {},
+                        "Effect": "Allow",
+                        "Action": [
+                                "s3:*"
+                        ],
+                        "Resource": [
+                                "arn:aws:s3:::git-collab/*"
+                        ]
+                }
+        ]
+}
